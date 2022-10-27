@@ -18,7 +18,7 @@ const handleFormInputs = (inputs, map) => {
             // add layer on first pass
             if(checked) {
                 const mapLayer = secondaryMapLayers[layer]
-                map.addLayer(mapLayer, 'road-label')
+                map.addLayer(mapLayer, 'ipd')
             }
         }
     })
@@ -47,7 +47,7 @@ const handleFormSelect = (selects, map) => {
                 // add layer on first pass
                 if(selected) {
                     const mapLayer = secondaryMapLayers[layer]
-                    map.addLayer(mapLayer, 'road-label')
+                    map.addLayer(mapLayer, 'ipd')
                 }
             }            
         })
