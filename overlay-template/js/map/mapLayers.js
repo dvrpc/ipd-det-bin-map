@@ -24,8 +24,18 @@ const layers = {
             'line-width': 0.5,
             'line-color': '#4a5c64'
         }
-    }
+    },
     // add other default layers here
+    minority_score: {
+        "id": "minority_score-outline",
+        "type": "fill",
+        "source": "ipd",
+        "source-layer": "minority_score",
+        "paint": {
+            'fill-pattern': 'pattern',
+            'line-width': 0.01,
+            'line-color': '#4a5c64'
+        }
+    }
 }
-
 export default layers
